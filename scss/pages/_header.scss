@@ -8,6 +8,7 @@
     height: 92px;
     @include flex-items();
     z-index: 99;
+    box-shadow: 0 0 10px 5px grey;
 }
 
 .navbar{
