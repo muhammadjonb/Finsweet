@@ -242,6 +242,9 @@ footer {
   color: #ffffff;
   font-size: 16px;
 }
+.building_btn a:hover {
+  color: #FCD980;
+}
 .building_btn span {
   letter-spacing: -5px;
 }
@@ -254,6 +257,24 @@ footer {
 
 .home_project {
   padding: 80px 0;
+}
+.home_project .project_top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.home_project .project_top h2 {
+  color: #282938;
+  font-size: 48px;
+  line-height: 64px;
+}
+.home_project .project_top_link {
+  color: #282938;
+}
+.home_project .project_top_link:hover {
+  color: #FCD980;
 }
 .home_project .project {
   display: flex;

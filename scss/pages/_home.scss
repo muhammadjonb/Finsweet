@@ -52,6 +52,9 @@
         a{
             color: $white-color;
             font-size: 16px;
+            &:hover{
+                color: $yellow-color;
+            }
         }
         span{
             letter-spacing: -5px;
@@ -68,6 +71,23 @@
 
 .home_project{
     padding: 80px 0;
+    .project_top{
+        width: 100%;
+        @include flex-items;
+        justify-content: space-between;
+        margin-bottom: 64px;
+        h2{
+            color: $dark-blue-color;
+            font-size: 48px;
+            line-height: 64px;
+        }
+        &_link{
+            color: $dark-blue-color;
+            &:hover{
+                color: $yellow-color;
+            }
+        }
+    }
     .project{
         @include flex-items;
         gap: 32px;
