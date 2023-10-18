@@ -6,6 +6,23 @@
 
     // ===================================== main
 
+    // ======================================== contact
+    .contact{
+        .form{
+            align-items: center;
+            .box{
+                justify-content: center;
+                label{
+                    align-items: center;
+                    h4{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+
+
     // ===================================== footer
     .footer{
         flex-direction: column;
@@ -64,6 +81,8 @@
             display: flex;
             transition: all .3s ease-in-out;
         }
+
+        
     }
     .navbar_menu {
         .navbar_items{
@@ -84,6 +103,12 @@
 
     // ===================================== main
 
+    //  ==============================contact
+    .contact{
+        .form{
+            padding: 20px;
+        }
+    }
 
 
     // ================================= footer
@@ -105,6 +130,13 @@
         }
     }
     // ===================================== main
+
+    // ===================================== contact
+    .contact {
+        h1{
+            font-size: 28px;
+        }
+    }
 
 
 }

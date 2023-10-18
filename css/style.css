@@ -178,6 +178,12 @@ footer {
   height: 22px;
 }
 
+.contact {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .contact h1 {
   text-align: center;
   margin-top: 72px;
@@ -192,59 +198,78 @@ footer {
 .contact p {
   text-align: center;
   color: #696A74;
+  max-width: 560px;
 }
 .contact .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #F4F6FC;
+  border-radius: 12px;
+  background: var(--Grey, #F4F6FC);
+  padding: 50px 70px 70px 70px;
+  max-width: 1061px;
+  width: 100%;
+  margin: 60px auto;
+  gap: 32px;
+}
+.contact .form .box {
+  width: 100%;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1061px;
-  height: 640px;
-  margin-left: 100px;
-  margin-top: 80px;
-  border: 1px solid #F4F6FC;
-  border-radius: 12px;
-  background: var(--Grey, #F4F6FC);
-  padding: 50px 70px;
   gap: 32px;
 }
-.contact .form label {
+.contact .form .box label {
   max-width: 438px;
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.contact .form label h4 {
+.contact .form .box label h4 {
   margin-bottom: 10px;
   color: black;
 }
-.contact .form label input {
+.contact .form .box label input {
   width: 100%;
-  height: 64px;
   display: inline-flex;
-  padding: 18px 32px;
+  padding: 24px 32px;
   align-items: flex-start;
   gap: 10px;
   border: 1px solid #D6D8DD;
   border-radius: 8px;
   background-color: #F4F6FC;
+  outline: none;
 }
-.contact .form label .message {
-  display: flex;
-  width: 908px;
-  height: 138px;
-  padding: 18px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  flex-shrink: 0;
+.contact .form .box .message {
+  max-width: 908px;
+  width: 100%;
 }
-.contact .form label button {
-  width: 200px;
-  height: 50px;
+.contact .form .box .message .textarea {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  outline: none;
+  background: transparent;
+  height: 140px;
+  border-color: rgba(0, 0, 0, 0.1215686275);
 }
 
 @media screen and (max-width: 1100px) {
+  .contact .form {
+    align-items: center;
+  }
+  .contact .form .box {
+    justify-content: center;
+  }
+  .contact .form .box label {
+    align-items: center;
+  }
+  .contact .form .box label h4 {
+    font-size: 24px;
+  }
   .footer {
     flex-direction: column;
     align-items: center;
@@ -312,6 +337,9 @@ footer {
   .navbar_menu .burger_menu__bottom {
     display: none;
   }
+  .contact .form {
+    padding: 20px;
+  }
   .footer h2 {
     font-size: 32px;
   }
@@ -323,6 +351,9 @@ footer {
   }
   .navbar_link {
     padding: 0;
+  }
+  .contact h1 {
+    font-size: 28px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -342,6 +373,7 @@ footer {
   background-color: #282938;
   border: 1px solid transparent;
   transition: 0.3s;
+  color: #F4F6FC;
 }
 .btn_dark:hover {
   background-color: transparent;
