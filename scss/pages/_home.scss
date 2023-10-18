@@ -115,8 +115,8 @@
         }
         &_card_one{
             background-image: url(../images/home/home_card_2.png);
-            background-size: contain;
-            background-position: cover;
+            background-size: cover;
+            background-position: center;
             background-repeat: no-repeat;
             max-width: 405px;
             width: 100%;
@@ -144,12 +144,159 @@
             width: 100%;
             height: 284px;
             background-image: url(../../images/home/home_Card_3.png);
-            background-size: contain;
-            background-position: cover;
+            background-size: cover;
+            background-position: center;
             background-repeat: no-repeat;
         }
     }
 }
+
+
+.home_design{
+    padding: 80px 0;
+    background-color: $grey-color;
+    .design{
+        @include flex-items;
+        justify-content: center;
+        flex-direction: column;
+        span{
+            font-size: 16px;
+            line-height: 28px;
+            color: $dark-blue-color;
+        }
+        h2{
+            font-size: $dark-blue-color;
+            font-size: 48px;
+            line-height: 64px;
+            max-width: 630px;
+            text-align: center;
+            margin: 6px 0 40px 0;
+        }
+        &_cards{
+            @include flex-items;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 32px;
+        }
+        &_card{
+            max-width: 405px;
+            height: 316px;
+            width: 100%;
+            padding: 48px 30px 48px 48px;
+            background-color: $white-color;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+            span{
+                width: 35px;
+                height: 35px;
+            }
+            h4{
+                color: $dark-blue-color;
+                font-size: 24px ;
+                line-height: 36px;
+                margin: 25px 0 12px 0;
+            }
+            p{
+                color: $dark-blue-color;
+                opacity: .7;
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+    }
+}
+
+
+.home_clients{
+    padding: 80px 0;
+    background-color: $grey-color;
+    .clients{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 40px;
+        &_left{
+            max-width: 327px;
+            width: 100%;
+            h3{
+                font-size: 38px;
+                line-height: 56px;
+                color: $dark-blue-color;
+                margin-bottom: 16px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 26px;
+                color: $dark-blue-color;
+                opacity: .7;
+            }
+        }
+        &_right{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            max-width: 840px;
+            h4{
+                font-size: 32px;
+                line-height: 48px;
+                color: $dark-blue-color;
+                margin-bottom: 40px;
+            }
+        }
+        &_content{
+            @include flex-items;
+            max-width: 840px;
+            width: 100%;
+            justify-content: space-between;
+            gap: 30px;
+        }
+        &_span{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            span{
+                border-radius: 50%;
+                background-color: $white-color;
+                opacity: .6;
+                padding: 0 15px;
+                font-size: 32px;
+                color: $dark-blue-color;
+                &:hover{
+                    background-color: #5239FA;
+                    color: $white-color;
+                    opacity: 1;
+                }
+            } 
+        }
+        &_card{
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+            h5{
+                color: $dark-blue-color;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-direction: column;
+                max-width: 150px;
+                font-size: 18px;
+                line-height: 24px;
+                span{
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
 
 
 @include for-large-desktop(){
@@ -159,6 +306,16 @@
                 font-size: 44px;
                 line-height: 60px;
                 max-width: 400px;
+            }
+        }
+    }
+    .home_clients{
+        .clients{
+            &_right{
+                max-width: 520px;
+                h4{
+                    font-size: 24px;
+                }
             }
         }
     }
@@ -177,6 +334,23 @@
             }
         }
     }
+
+    .home_clients{
+        .clients{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &_left{
+                align-items: center;
+                text-align: center;
+                max-width: 400px;
+            }
+            &_right{
+                text-align: center;
+                max-width: 650px;
+            }
+        }
+    }
 }
 
 
@@ -192,6 +366,7 @@
         }
     }
     .home_project{
+        padding: 60px 0;
         .project{
             &_bigcard{
                 max-width: 505px;
@@ -205,18 +380,39 @@
                 }
             }
             &_cards{
-                flex-direction: column;
+                display: flex;
                 align-items: center;
+                justify-content: center;
+                flex-direction: column !important;
             }
-            &_card{
+            &_card_one{
+                max-width: 505px;
+                width: 100%;
+            }&_card__two{
                 max-width: 505px;
                 width: 100%;
             }
         }
     }
+
+    .home_clients{
+        .clients{
+            &-left{
+                max-width: 350px;
+                h3{
+                    font-size: 32px;
+                    line-height: 44px;
+                }
+            }
+            &_right{
+                max-width: 540px;
+            }
+        }
+    }
+    
 }
 
-@include for-large-tablet{
+@include for-large-mobile(){
     .home_setion{
         padding: 80px 0;
     }
@@ -229,12 +425,71 @@
             }
         }
     }
+    .home_design{
+        .design{
+            h2{
+                font-size: 32px;
+                line-height: 44px;
+                max-width: 500px;
+            }
+        }
+    }
+    .home_clients{
+        .clients{
+            &_left{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                h3{
+                    font-size: 28px;
+                    line-height: 36px;
+                    max-width: 300px;
+                }
+            }
+            &_right{
+                max-width: 440px;
+                h4{
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
 }
 
 @include for-mobile(){
     .building{
         &_btns{
             flex-direction: column;
+        }
+    }
+    .home_project{
+        .project{
+            &_bigcard{
+                &__text{
+                    padding: 20px !important;
+                }
+                h3{
+                    font-size: 20px;
+                    line-height: 28px;
+                    max-width: 300px;
+                }
+            }
+            &_card_bg{
+                padding: 20px;
+                h3{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .home_design{
+        .design{
+            h2{
+                font-size: 28px;
+                line-height: 38px;
+                max-width: 360px;
+            }
         }
     }
 }

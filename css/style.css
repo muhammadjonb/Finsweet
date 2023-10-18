@@ -304,8 +304,8 @@ footer {
 }
 .home_project .project_card_one {
   background-image: url(../images/home/home_card_2.png);
-  background-size: contain;
-  background-position: cover;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   max-width: 405px;
   width: 100%;
@@ -333,9 +333,156 @@ footer {
   width: 100%;
   height: 284px;
   background-image: url(../../images/home/home_Card_3.png);
-  background-size: contain;
-  background-position: cover;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+}
+
+.home_design {
+  padding: 80px 0;
+  background-color: #F4F6FC;
+}
+.home_design .design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home_design .design span {
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+}
+.home_design .design h2 {
+  font-size: #282938;
+  font-size: 48px;
+  line-height: 64px;
+  max-width: 630px;
+  text-align: center;
+  margin: 6px 0 40px 0;
+}
+.home_design .design_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.home_design .design_card {
+  max-width: 405px;
+  height: 316px;
+  width: 100%;
+  padding: 48px 30px 48px 48px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.home_design .design_card span {
+  width: 35px;
+  height: 35px;
+}
+.home_design .design_card h4 {
+  color: #282938;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 25px 0 12px 0;
+}
+.home_design .design_card p {
+  color: #282938;
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.home_clients {
+  padding: 80px 0;
+  background-color: #F4F6FC;
+}
+.home_clients .clients {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+}
+.home_clients .clients_left {
+  max-width: 327px;
+  width: 100%;
+}
+.home_clients .clients_left h3 {
+  font-size: 38px;
+  line-height: 56px;
+  color: #282938;
+  margin-bottom: 16px;
+}
+.home_clients .clients_left p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #282938;
+  opacity: 0.7;
+}
+.home_clients .clients_right {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 840px;
+}
+.home_clients .clients_right h4 {
+  font-size: 32px;
+  line-height: 48px;
+  color: #282938;
+  margin-bottom: 40px;
+}
+.home_clients .clients_content {
+  display: flex;
+  align-items: center;
+  max-width: 840px;
+  width: 100%;
+  justify-content: space-between;
+  gap: 30px;
+}
+.home_clients .clients_span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.home_clients .clients_span span {
+  border-radius: 50%;
+  background-color: #ffffff;
+  opacity: 0.6;
+  padding: 0 15px;
+  font-size: 32px;
+  color: #282938;
+}
+.home_clients .clients_span span:hover {
+  background-color: #5239FA;
+  color: #ffffff;
+  opacity: 1;
+}
+.home_clients .clients_card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.home_clients .clients_card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.home_clients .clients_card h5 {
+  color: #282938;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 150px;
+  font-size: 18px;
+  line-height: 24px;
+}
+.home_clients .clients_card h5 span {
+  font-size: 12px;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 1100px) {
@@ -343,6 +490,12 @@ footer {
     font-size: 44px;
     line-height: 60px;
     max-width: 400px;
+  }
+  .home_clients .clients_right {
+    max-width: 520px;
+  }
+  .home_clients .clients_right h4 {
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 978px) {
@@ -358,6 +511,20 @@ footer {
     max-width: 540px;
     text-align: center;
   }
+  .home_clients .clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home_clients .clients_left {
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+  }
+  .home_clients .clients_right {
+    text-align: center;
+    max-width: 650px;
+  }
 }
 @media screen and (max-width: 768px) {
   .building_text {
@@ -367,6 +534,9 @@ footer {
     font-size: 36px;
     line-height: 44px;
     max-width: 450px;
+  }
+  .home_project {
+    padding: 60px 0;
   }
   .home_project .project_bigcard {
     max-width: 505px;
@@ -380,15 +550,31 @@ footer {
     margin: 10px 0 20px 0;
   }
   .home_project .project_cards {
-    flex-direction: column;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
   }
-  .home_project .project_card {
+  .home_project .project_card_one {
     max-width: 505px;
     width: 100%;
   }
+  .home_project .project_card__two {
+    max-width: 505px;
+    width: 100%;
+  }
+  .home_clients .clients-left {
+    max-width: 350px;
+  }
+  .home_clients .clients-left h3 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .home_clients .clients_right {
+    max-width: 540px;
+  }
 }
-@media screen and (max-width: 978px) {
+@media screen and (max-width: 576px) {
   .home_setion {
     padding: 80px 0;
   }
@@ -399,10 +585,51 @@ footer {
     font-size: 28px;
     line-height: 38px;
   }
+  .home_design .design h2 {
+    font-size: 32px;
+    line-height: 44px;
+    max-width: 500px;
+  }
+  .home_clients .clients_left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home_clients .clients_left h3 {
+    font-size: 28px;
+    line-height: 36px;
+    max-width: 300px;
+  }
+  .home_clients .clients_right {
+    max-width: 440px;
+  }
+  .home_clients .clients_right h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
 }
 @media screen and (max-width: 480px) {
   .building_btns {
     flex-direction: column;
+  }
+  .home_project .project_bigcard__text {
+    padding: 20px !important;
+  }
+  .home_project .project_bigcard h3 {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 300px;
+  }
+  .home_project .project_card_bg {
+    padding: 20px;
+  }
+  .home_project .project_card_bg h3 {
+    font-size: 20px;
+  }
+  .home_design .design h2 {
+    font-size: 28px;
+    line-height: 38px;
+    max-width: 360px;
   }
 }
 .contact {
