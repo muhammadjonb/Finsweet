@@ -512,6 +512,169 @@ footer {
   font-weight: 400;
 }
 
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+  gap: 40px;
+}
+.cards .card {
+  max-width: 490px;
+}
+.cards .card .info {
+  color: #282938;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px; /* 177.778% */
+  padding-bottom: 8px;
+}
+.cards .card .big {
+  color: #282938;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px; /* 137.037% */
+  padding-bottom: 31px;
+}
+.cards .card .lor {
+  color: #282938;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.cards .card_img {
+  max-width: 600px;
+}
+.cards .card_img img {
+  width: 100%;
+}
+
+.about_img_card {
+  padding: 80px 0;
+}
+
+.bg {
+  background: #f4f5f5;
+}
+.bg .img1 {
+  max-width: 1280px;
+  width: 100%;
+}
+.bg .text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 80px;
+  gap: 40px;
+}
+.bg .text .pragref {
+  max-width: 515px;
+}
+.bg .text .pragref .jk {
+  color: #282938;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 147.368% */
+  padding-bottom: 16px;
+}
+.bg .text .pragref .jk1 {
+  color: #282938;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.bg-orqa {
+  padding: 80px 0;
+  background: #F4F6FC;
+}
+.bg-orqa .one {
+  padding-bottom: 48px;
+  color: #282938;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+}
+.bg-orqa .cardss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.bg-orqa .cardss .cardd:hover {
+  box-shadow: 0 0 10px 5px rgba(173, 173, 173, 0.5647058824);
+  transition: 0.8s;
+}
+
+@media screen and (max-width: 1100px) {
+  .cards .card {
+    max-width: 440px;
+  }
+  .cards .card .big {
+    font-size: 44px;
+    line-height: 52px;
+  }
+  .bg .text {
+    flex-direction: column;
+  }
+  .bg .text .pragref {
+    max-width: 750px;
+  }
+}
+@media screen and (max-width: 978px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 740px;
+    text-align: center;
+  }
+  .cards .lor {
+    text-align: center;
+  }
+  .bg .img1 {
+    height: 200px;
+  }
+  .bg .text {
+    align-items: center;
+    padding: 40px 20px;
+  }
+  .bg .text .pragref {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .bg .text .pragref .jk {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .bg-orqa .one {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cards .card {
+    max-width: 500px;
+  }
+  .cards .card .big {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .bg-orqa .one {
+    font-size: 28px;
+  }
+}
 .contact {
   padding: 80px 0;
   display: flex;
