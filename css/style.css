@@ -486,153 +486,6 @@ footer {
   font-weight: 400;
 }
 
-@media screen and (max-width: 1100px) {
-  .building_text h1 {
-    font-size: 44px;
-    line-height: 60px;
-    max-width: 400px;
-  }
-  .home_clients .clients_right {
-    max-width: 520px;
-  }
-  .home_clients .clients_right h4 {
-    font-size: 24px;
-  }
-}
-@media screen and (max-width: 978px) {
-  .building {
-    flex-direction: column;
-  }
-  .building_text {
-    align-items: center;
-    text-align: center;
-    max-width: 630px;
-  }
-  .building_text h1 {
-    max-width: 540px;
-    text-align: center;
-  }
-  .home_clients .clients {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .home_clients .clients_left {
-    align-items: center;
-    text-align: center;
-    max-width: 400px;
-  }
-  .home_clients .clients_right {
-    text-align: center;
-    max-width: 650px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .building_text {
-    max-width: 500px;
-  }
-  .building_text h1 {
-    font-size: 36px;
-    line-height: 44px;
-    max-width: 450px;
-  }
-  .home_project {
-    padding: 60px 0;
-  }
-  .home_project .project_bigcard {
-    max-width: 505px;
-    height: 324px;
-  }
-  .home_project .project_bigcard__text {
-    max-width: 505px;
-    width: 100%;
-  }
-  .home_project .project_bigcard__text p {
-    margin: 10px 0 20px 0;
-  }
-  .home_project .project_cards {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column !important;
-  }
-  .home_project .project_card_one {
-    max-width: 505px;
-    width: 100%;
-  }
-  .home_project .project_card__two {
-    max-width: 505px;
-    width: 100%;
-  }
-  .home_clients .clients-left {
-    max-width: 350px;
-  }
-  .home_clients .clients-left h3 {
-    font-size: 32px;
-    line-height: 44px;
-  }
-  .home_clients .clients_right {
-    max-width: 540px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .home_setion {
-    padding: 80px 0;
-  }
-  .building_text {
-    max-width: 370px;
-  }
-  .building_text h1 {
-    font-size: 28px;
-    line-height: 38px;
-  }
-  .home_design .design h2 {
-    font-size: 32px;
-    line-height: 44px;
-    max-width: 500px;
-  }
-  .home_clients .clients_left {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .home_clients .clients_left h3 {
-    font-size: 28px;
-    line-height: 36px;
-    max-width: 300px;
-  }
-  .home_clients .clients_right {
-    max-width: 440px;
-  }
-  .home_clients .clients_right h4 {
-    font-size: 20px;
-    line-height: 28px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .building_btns {
-    flex-direction: column;
-  }
-  .home_project .project_bigcard__text {
-    padding: 20px !important;
-  }
-  .home_project .project_bigcard h3 {
-    font-size: 20px;
-    line-height: 28px;
-    max-width: 300px;
-  }
-  .home_project .project_card_bg {
-    padding: 20px;
-  }
-  .home_project .project_card_bg h3 {
-    font-size: 20px;
-  }
-  .home_design .design h2 {
-    font-size: 28px;
-    line-height: 38px;
-    max-width: 360px;
-  }
-}
 .contact {
   padding: 80px 0;
   display: flex;
@@ -736,6 +589,17 @@ footer {
   .contact .form .box label h4 {
     font-size: 24px;
   }
+  .building_text h1 {
+    font-size: 44px;
+    line-height: 60px;
+    max-width: 400px;
+  }
+  .home_clients .clients_right {
+    max-width: 520px;
+  }
+  .home_clients .clients_right h4 {
+    font-size: 24px;
+  }
   .footer {
     flex-direction: column;
     align-items: center;
@@ -763,6 +627,32 @@ footer {
   }
   .navbar_btn {
     padding: 10px 32px;
+  }
+  .building {
+    flex-direction: column;
+  }
+  .building_text {
+    align-items: center;
+    text-align: center;
+    max-width: 630px;
+  }
+  .building_text h1 {
+    max-width: 540px;
+    text-align: center;
+  }
+  .home_clients .clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home_clients .clients_left {
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+  }
+  .home_clients .clients_right {
+    text-align: center;
+    max-width: 650px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -803,6 +693,52 @@ footer {
   .navbar_menu .burger_menu__bottom {
     display: none;
   }
+  .building_text {
+    max-width: 500px;
+  }
+  .building_text h1 {
+    font-size: 36px;
+    line-height: 44px;
+    max-width: 450px;
+  }
+  .home_project {
+    padding: 60px 0;
+  }
+  .home_project .project_bigcard {
+    max-width: 505px;
+    height: 324px;
+  }
+  .home_project .project_bigcard__text {
+    max-width: 505px;
+    width: 100%;
+  }
+  .home_project .project_bigcard__text p {
+    margin: 10px 0 20px 0;
+  }
+  .home_project .project_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+  }
+  .home_project .project_card_one {
+    max-width: 505px;
+    width: 100%;
+  }
+  .home_project .project_card__two {
+    max-width: 505px;
+    width: 100%;
+  }
+  .home_clients .clients-left {
+    max-width: 350px;
+  }
+  .home_clients .clients-left h3 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .home_clients .clients_right {
+    max-width: 540px;
+  }
   .contact .form {
     padding: 20px;
   }
@@ -818,11 +754,65 @@ footer {
   .navbar_link {
     padding: 0;
   }
+  .home_setion {
+    padding: 80px 0;
+  }
+  .building_text {
+    max-width: 370px;
+  }
+  .building_text h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .home_design .design h2 {
+    font-size: 32px;
+    line-height: 44px;
+    max-width: 500px;
+  }
+  .home_clients .clients_left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home_clients .clients_left h3 {
+    font-size: 28px;
+    line-height: 36px;
+    max-width: 300px;
+  }
+  .home_clients .clients_right {
+    max-width: 440px;
+  }
+  .home_clients .clients_right h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
   .contact h1 {
     font-size: 28px;
   }
 }
 @media screen and (max-width: 480px) {
+  .building_btns {
+    flex-direction: column;
+  }
+  .home_project .project_bigcard__text {
+    padding: 20px !important;
+  }
+  .home_project .project_bigcard h3 {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 300px;
+  }
+  .home_project .project_card_bg {
+    padding: 20px;
+  }
+  .home_project .project_card_bg h3 {
+    font-size: 20px;
+  }
+  .home_design .design h2 {
+    font-size: 28px;
+    line-height: 38px;
+    max-width: 360px;
+  }
   .footer_card {
     flex-direction: column;
     gap: 32px;

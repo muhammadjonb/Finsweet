@@ -34,6 +34,27 @@
         }
     }
 
+    //====================================== home
+    .building{
+        &_text{
+            h1{
+                font-size: 44px;
+                line-height: 60px;
+                max-width: 400px;
+            }
+        }
+    }
+    .home_clients{
+        .clients{
+            &_right{
+                max-width: 520px;
+                h4{
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
 
     // ===================================== footer
     .footer{
@@ -66,6 +87,36 @@
         }
     }
     // ===================================== main
+    // ====================================== home
+    .building{
+        flex-direction: column;
+        &_text{
+            align-items: center;
+            text-align: center;
+            max-width: 630px;
+            h1{
+                max-width: 540px;
+                text-align: center;
+            }
+        }
+    }
+
+    .home_clients{
+        .clients{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &_left{
+                align-items: center;
+                text-align: center;
+                max-width: 400px;
+            }
+            &_right{
+                text-align: center;
+                max-width: 650px;
+            }
+        }
+    }
 
 }
 //  ===================================== for-tablet
@@ -115,6 +166,63 @@
 
     // ===================================== main
 
+    // ====================================== home
+
+    .building{
+        &_text{
+            max-width: 500px;
+            h1{
+                font-size: 36px;
+                line-height: 44px;
+                max-width: 450px;
+            }
+        }
+    }
+    .home_project{
+        padding: 60px 0;
+        .project{
+            &_bigcard{
+                max-width: 505px;
+                height: 324px;
+                &__text{
+                    max-width: 505px;
+                    width: 100%;
+                    p{
+                        margin: 10px 0 20px 0;
+                    }
+                }
+            }
+            &_cards{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column !important;
+            }
+            &_card_one{
+                max-width: 505px;
+                width: 100%;
+            }&_card__two{
+                max-width: 505px;
+                width: 100%;
+            }
+        }
+    }
+
+    .home_clients{
+        .clients{
+            &-left{
+                max-width: 350px;
+                h3{
+                    font-size: 32px;
+                    line-height: 44px;
+                }
+            }
+            &_right{
+                max-width: 540px;
+            }
+        }
+    }
+
     //  ==============================contact
     .contact{
         .form{
@@ -143,6 +251,50 @@
     }
     // ===================================== main
 
+    //======================================== home
+    .home_setion{
+        padding: 80px 0;
+    }
+    .building{
+        &_text{
+            max-width: 370px;
+            h1{
+                font-size: 28px;
+                line-height: 38px;
+            }
+        }
+    }
+    .home_design{
+        .design{
+            h2{
+                font-size: 32px;
+                line-height: 44px;
+                max-width: 500px;
+            }
+        }
+    }
+    .home_clients{
+        .clients{
+            &_left{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                h3{
+                    font-size: 28px;
+                    line-height: 36px;
+                    max-width: 300px;
+                }
+            }
+            &_right{
+                max-width: 440px;
+                h4{
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+
     // ===================================== contact
     .contact {
         h1{
@@ -157,6 +309,40 @@
 
 @include for-mobile(){
 
+    .building{
+        &_btns{
+            flex-direction: column;
+        }
+    }
+    .home_project{
+        .project{
+            &_bigcard{
+                &__text{
+                    padding: 20px !important;
+                }
+                h3{
+                    font-size: 20px;
+                    line-height: 28px;
+                    max-width: 300px;
+                }
+            }
+            &_card_bg{
+                padding: 20px;
+                h3{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .home_design{
+        .design{
+            h2{
+                font-size: 28px;
+                line-height: 38px;
+                max-width: 360px;
+            }
+        }
+    }
 
     // ===================================== main
 
