@@ -55,3 +55,12 @@
         color: #FDE4A6;
     }
 }
+
+@include for-mobile{
+    .btn_dark,
+    .btn_light_black,
+    .btn_light_yellow,
+    .btn_yellow{
+        padding: 10px 36px;
+    }
+}

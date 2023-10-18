@@ -1,4 +1,16 @@
-@include for-desktop(){}
+@include for-desktop(){
+    .home_project{
+        .project{
+            flex-direction: column;
+            &_cards{
+                flex-direction: row;
+                align-items: center;
+                max-width: 843px;
+                width: 100%;
+            }
+        }
+    }
+}
 
 // =================================== for-large-desktop
 
