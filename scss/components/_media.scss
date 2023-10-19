@@ -180,6 +180,12 @@
     }
     .home_project{
         padding: 60px 0;
+        .project_top{
+            h2{
+                font-size: 28px;
+                
+            }
+        }
         .project{
             &_bigcard{
                 max-width: 505px;
@@ -315,6 +321,9 @@
         }
     }
     .home_project{
+        .project_top{
+            flex-direction: column;
+        }
         .project{
             &_bigcard{
                 &__text{

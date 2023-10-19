@@ -1183,6 +1183,9 @@ footer {
   .home_project {
     padding: 60px 0;
   }
+  .home_project .project_top h2 {
+    font-size: 28px;
+  }
   .home_project .project_bigcard {
     max-width: 505px;
     height: 324px;
@@ -1271,6 +1274,9 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .building_btns {
+    flex-direction: column;
+  }
+  .home_project .project_top {
     flex-direction: column;
   }
   .home_project .project_bigcard__text {
