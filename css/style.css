@@ -965,6 +965,158 @@ footer {
   margin-left: 650px;
 }
 
+.blog section {
+  width: 100%;
+  height: 200px;
+}
+.blog section .sec-1 h1 {
+  width: 850px;
+  height: 150px;
+  margin: 0 auto;
+  font-size: 48px;
+}
+.blog section .sec-1 h5 {
+  text-align: center;
+  justify-content: center;
+}
+.blog .sec-2 {
+  width: 100%;
+  height: 750px;
+}
+.blog .sec-2 h5 {
+  padding-top: 40px;
+  width: 670px;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.blog .sec-2 h4 {
+  text-align: center;
+  justify-content: center;
+  color: blue;
+  margin-top: -70px;
+}
+.blog .sec-3 {
+  width: 100%;
+  height: 750px;
+}
+.blog .sec-3 h1 {
+  text-align: center;
+  justify-content: center;
+}
+.blog .sec-3 .sec-3-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.blog .sec-3 .sec-3-cards .card-1 {
+  width: 335px;
+  height: 550px;
+  margin-top: 80px;
+}
+.blog .sec-3 .sec-3-cards .card-1 svg {
+  width: 100%;
+}
+.blog .sec-3 .sec-3-cards .card-1 h4 {
+  padding-top: 10px;
+  width: 280px;
+}
+.blog .sec-3 .sec-3-cards .card-1 h5 {
+  padding-top: 20px;
+  width: 340px;
+}
+.blog .card-2 {
+  width: 335px;
+  height: 550px;
+  margin-top: 80px;
+}
+.blog .card-2 svg {
+  width: 100%;
+}
+.blog .card-2 h4 {
+  padding-top: 10px;
+  width: 280px;
+}
+.blog .card-2 h5 {
+  padding-top: 20px;
+  width: 340px;
+}
+.blog .card-3 {
+  width: 335px;
+  height: 550px;
+  margin-top: 80px;
+}
+.blog .card-3 svg {
+  width: 100%;
+}
+.blog .card-3 h4 {
+  padding-top: 10px;
+  width: 280px;
+}
+.blog .card-3 h5 {
+  padding-top: 20px;
+  width: 340px;
+}
+.blog .sec-4 {
+  width: 100%;
+  height: 600px;
+}
+.blog .sec-4 .sec-4-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -100px;
+}
+.blog .sec-4 .sec-4-cards .card-4 {
+  width: 335px;
+  height: 550px;
+  margin-top: 80px;
+}
+.blog .sec-4 .sec-4-cards .card-4 svg {
+  width: 100%;
+}
+.blog .sec-4 .sec-4-cards .card-4 h4 {
+  padding-top: 10px;
+  width: 280px;
+}
+.blog .sec-4 .sec-4-cards .card-4 h5 {
+  padding-top: 20px;
+  width: 340px;
+}
+.blog .sec-4 .sec-4-cards .card-5 {
+  width: 335px;
+  height: 550px;
+  margin-top: 80px;
+}
+.blog .sec-4 .sec-4-cards .card-5 svg {
+  width: 100%;
+}
+.blog .sec-4 .sec-4-cards .card-5 h4 {
+  padding-top: 10px;
+  width: 280px;
+}
+.blog .sec-4 .sec-4-cards .card-5 h5 {
+  padding-top: 20px;
+  width: 340px;
+}
+.blog .sec-4 .sec-4-cards .card-6 {
+  width: 335px;
+  height: 550px;
+  margin-top: 80px;
+}
+.blog .sec-4 .sec-4-cards .card-6 svg {
+  width: 100%;
+}
+.blog .sec-4 .sec-4-cards .card-6 h4 {
+  padding-top: 10px;
+  width: 280px;
+}
+.blog .sec-4 .sec-4-cards .card-6 h5 {
+  padding-top: 20px;
+  width: 340px;
+}
+
 .contact {
   padding: 80px 0;
   display: flex;
