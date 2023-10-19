@@ -1,1 +1,153 @@
-// 
+section{
+width: 100%;
+height: 200px;
+.sec-1{
+    h1{
+        width: 850px;
+        height: 150px;
+        margin: 0 auto;
+        font-size: 48px;
+    }
+    h5{
+    text-align: center;
+    justify-content: center;
+    }
+}
+}
+.sec-2{
+width: 100%;
+height: 750px;
+h5{
+padding-top: 40px;
+width: 670px;
+height: 200px;
+text-align: center;
+justify-content: center;
+margin: 0 auto;
+}
+h4{
+text-align: center;
+justify-content: center;
+color: blue;
+margin-top: -70px;
+}
+}
+.sec-3{
+width: 100%;
+height: 750px;
+h1{
+text-align: center;
+justify-content: center;
+}
+.sec-3-cards{
+width: 100%;
+display: flex;
+justify-content: space-between;
+.card-1{
+width: 335px;
+height: 550px;
+margin-top: 80px;
+svg{
+width: 100%;
+}
+h4{
+    padding-top: 10px;
+width: 280px;
+}
+h5{
+    padding-top: 20px;
+width: 340px;
+}
+}
+}
+}
+.card-2{
+    width: 335px;
+    height: 550px;
+    margin-top: 80px;
+    svg{
+    width: 100%;
+    }
+    h4{
+        padding-top: 10px;
+        width: 280px;
+    }
+    h5{
+        padding-top: 20px;
+        width: 340px;
+    }
+}
+.card-3{
+    width: 335px;
+    height: 550px;
+    margin-top: 80px;
+    svg{
+    width: 100%;
+    }
+    h4{
+        padding-top: 10px;
+        width: 280px;
+    }
+    h5{
+        padding-top: 20px;
+        width: 340px;
+    }
+}
+.sec-4{
+    width: 100%;
+    height: 600px;
+    .sec-4-cards{
+        width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: -100px;
+    .card-4{
+        width: 335px;
+        height: 550px;
+        margin-top: 80px;
+        svg{
+        width: 100%;
+        }
+        h4{
+            padding-top: 10px;
+            width: 280px;
+        }
+        h5{
+            padding-top: 20px;
+            width: 340px;
+        }
+    }
+    .card-5{
+        width: 335px;
+        height: 550px;
+        margin-top: 80px;
+        svg{
+        width: 100%;
+        }
+        h4{
+            padding-top: 10px;
+            width: 280px;
+        }
+        h5{
+            padding-top: 20px;
+            width: 340px;
+        }
+    }
+    .card-6{
+        width: 335px;
+        height: 550px;
+        margin-top: 80px;
+        svg{
+        width: 100%;
+        }
+        h4{
+            padding-top: 10px;
+            width: 280px;
+        }
+        h5{
+            padding-top: 20px;
+            width: 340px;
+        }
+    }
+    }
+}
