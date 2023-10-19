@@ -1,1 +1,292 @@
 // 
+.pricing{
+    .container h1 {
+        margin-left: 410px;
+    }
+    .container h1 p{
+        font-size: 30px;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        color: var(--Dark-blue, #282938);
+        width: 462px;
+        line-height: 28px;  
+    }
+    .container h1 span{
+        margin-left: 37px;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px;
+    }
+    .card-item{
+        width: 280px;
+        padding: 50px;
+        height: 500px;
+        border-radius: 12px;
+        background: var(--Grey, #F4F6FC);
+    }
+    .p{
+        font-size: 16px;
+        font-style: normal;
+        color: var(--Dark-blue, #282938);
+        font-weight: 500;
+        line-height: 28px;
+    }
+    .photo{
+        margin-left: -22px;
+        position: absolute;
+    }
+    .phot{
+        position: absolute;
+        margin-left: -22px;
+        margin-top: 35px;
+    }
+    .pho{
+        position: absolute;
+        margin-left: -22px;
+        margin-top: 69px;
+    }
+    .ph{
+        position: absolute;
+        margin-top: 104px;
+        margin-left: -22px;
+    }
+    .f{
+        position: absolute;
+        margin-left: -22px;
+        margin-top: 137px;
+    }
+    .card-item:hover{
+        background: #1C1E53;
+    }
+    .card-item:hover p{
+        color: #fff;
+    }
+    .card-item:hover span{
+        color: #fff;
+    }
+    .card-item:hover .spans{
+        color: var(--Yellow, #FCD980);;
+    }
+    .card-item:hover .button{
+        color: #282938;
+        background-color: var(--Yellow, #FCD980);
+    }
+    .spans{
+        color: #282938;
+        font-size: 13px;
+        color:  var(--Royal-Blue, #2405F2);;
+    }
+    .spanssd{
+        font-size: 24px;
+        color: #282938;
+    }
+    .button{
+        background-color: #282938;
+        border-radius: 41px;
+        color: #fff;
+        padding: 12px;
+        width: 160px;
+        margin-left: 56px;
+        margin-top:72px;
+    }
+    .card-items{
+        width: 280px;
+        padding: 20px;
+        height: 500px;
+        border-radius: 12px;
+        background: var(--Grey, #F4F6FC);
+    }
+    .ps{
+        font-size: 16px;
+        font-style: normal;
+        color: var(--Dark-blue, #282938);
+        font-weight: 500;
+        line-height: 28px;
+    }
+    .photos{
+        margin-left: -22px;
+        position: absolute;
+    }
+    .phots{
+        position: absolute;
+        margin-left: -22px;
+        margin-top: 35px;
+    }
+    .phos{
+        position: absolute;
+        margin-left: -22px;
+        margin-top: 69px;
+    }
+    .phs{
+        position: absolute;
+        margin-top: 104px;
+        margin-left: -22px;
+    }
+    .fs{
+        position: absolute;
+        margin-left: -22px;
+        margin-top: 137px;
+    }
+    .card-items:hover{
+        background: #1C1E53;
+    }
+    .card-items:hover p{
+        color: #fff;
+    }
+    .card-items:hover span{
+        color: #fff;
+    }
+    .card-items:hover .spanss{
+        color: var(--Yellow, #FCD980);;
+    }
+    .card-items:hover .buttons{
+        color: #282938;
+        background-color: var(--Yellow, #FCD980);
+    }
+    .spanss{
+        color: #282938;
+        font-size: 13px;
+        color:  var(--Royal-Blue, #2405F2);;
+    }
+    .spansss{
+        font-size: 23px;
+    }
+    .buttons{
+        background-color: #282938;
+        border-radius: 41px;
+        color: #fff;
+        padding: 12px;
+        width: 160px;
+        margin-left: 56px;
+        margin-top:42px;
+    }
+    .card-itemsw{
+        width: 280px;
+        padding: 20px;
+        height: 500px;
+        border-radius: 12px;
+        background: var(--Grey, #F4F6FC);
+    }
+    .psw{
+        font-size: 16px;
+        font-style: normal;
+        color: var(--Dark-blue, #282938);
+        font-weight: 500;
+        line-height: 28px;
+    }
+    .photosw{
+        margin-left: -22px;
+        position: absolute;
+    }
+    .photsw{
+        position: absolute;
+        margin-left: -22px;
+        margin-top: 35px;
+    }
+    .phosw{
+        position: absolute;
+        margin-left: -22px;
+        margin-top: 69px;
+    }
+    .phsw{
+        position: absolute;
+        margin-top: 104px;
+        margin-left: -22px;
+    }
+    .fsw{
+        position: absolute;
+        margin-left: -22px;
+        margin-top: 137px;
+    }
+    .card-itemsw:hover{
+        background: #1C1E53;
+    }
+    .card-itemsw:hover p{
+        color: #fff;
+    }
+    .card-itemsw:hover span{
+        color: #fff;
+    }
+    .card-itemsw:hover .spanssw{
+        color: var(--Yellow, #FCD980);;
+    }
+    .card-itemsw:hover .buttonsw{
+        color: #282938;
+        background-color: var(--Yellow, #FCD980);
+    }
+    .spanssw{
+        color: #282938;
+        font-size: 13px;
+        color:  var(--Royal-Blue, #2405F2);;
+    }
+    .spansssw{
+        font-size: 23px;
+    }
+    .buttonsw{
+        background-color: #282938;
+        border-radius: 41px;
+        color: #fff;
+        padding: 12px;
+        width: 160px;
+        margin-left: 56px;
+        margin-top:42px;
+    }
+    .fsww{
+        position: absolute;
+        margin-left: -22px;
+        margin-top:170px ;
+    }
+    .card ul li{
+        overflow: hidden;
+    }
+    .card ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .mini-container{
+        width: 1105px;
+        margin-left: 117px;
+    }
+    .mini-h2{
+        width: 256px;
+        font-size: 33px;
+    }
+    .mini-h2 p{
+        color: #2405F2;
+        font-size: 18px;
+    }
+    .mini-item{
+        width: 700px;
+        margin-left: 400px;
+        margin-top: -150px;
+    }
+    .ix{
+        transform: rotate(135deg);
+        margin-left: 650px;
+        margin-top: 20px;
+        position: absolute;
+    }
+    .ixs{
+        position: absolute;
+        margin-left: 650px;
+        margin-top: 15px;
+    }
+    .ixss{
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 650px;
+    }
+    .ixsss{
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 650px;
+    }
+    .ixssss{
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 650px;
+    }
+}
